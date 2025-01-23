@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;outline: 0;
+    font-family: bahnschrift, 'Segoe UI', sans-serif;
+}
+
+.day{
+    width: 100vw; height: 100vh;
+    background: linear-gradient(to top right, rgb(255, 68, 0), orange);
+    display: flex;
+    flex-direction: column;
+    align-items: center; justify-content: center;
+}
+
+
+.night{
+    width: 100vw; height: 100vh;
+    background: linear-gradient(to top, rgb(0, 34, 126), rgb(0, 13, 48));
+    display: flex;
+    flex-direction: column;
+    align-items: center; justify-content: center;
+}
+
+#hours{
+    width: 17vw; height: 17vw;
+    text-align: center; line-height: 17vw;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    font-size: 12vw;
+    border-radius: 1.5vw;
+    position: fixed;
+    bottom: 55vh; left: 35vw;
+}
+
+#minutes{
+    width: 15vw; height: 15vw;
+    text-align: center; line-height: 15vw;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    font-size: 9vw;
+    border-radius: 1.5vw;
+    position: fixed;
+    bottom: 55vh; left: 55vw;
+}
+
+#seconds{
+    width: 18vw; height: 5vw;
+    text-align: center; line-height: 5vw;
+    background-color: crimson;
+    color: #fff;
+    font-size: 4vw;
+    border-radius: .7vw;
+    position: fixed;
+    bottom: 40vh; right: 33vw;
+    font-family: consolas;
+}
+
+.sec_night{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+#switch{
+    width: 10vw; height: 10vw;
+    text-align: center; line-height: 10vw;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000;
+    font-size: 4.5vw;
+    font-weight: bold;
+    border-radius: 1vw;
+    position: fixed;
+    bottom: 45vh; right: 75vw;
+    cursor: pointer;
+}
+
+.switch_night{background-color: #fff !important;}
+
+h3{
+    text-align: center;
+    font-size: 1.5vw;
+    position: fixed;
+    bottom: 15vh;
+    color: #fff;
+}
